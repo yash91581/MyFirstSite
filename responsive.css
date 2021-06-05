@@ -1,0 +1,42 @@
+@media only screen and (max-width:1200px) {
+   .nav{
+       height: 180px;
+       width: 100vw;
+       position: relative;
+   }
+    .nav ul{
+       flex-wrap: wrap;
+ }
+ .nav ul .search{
+     width: 180px;
+ }
+
+   .content img{
+       width: 100vw;
+       height: 250px;
+       padding-left: 0;
+       padding-right: 0;
+   }
+   .img{
+       flex-direction: column;
+   }
+   .tag{
+       font-size: 4vw;
+   }
+   .tours{
+       height: 1500px;
+   }
+  .boxes{
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+}
+@media only screen and (max-width:370px){
+    .nav{
+        height: 200px;
+        width: 100vw;
+    }
+    .content img{
+        width:100vw;
+    }
+}
